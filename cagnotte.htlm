@@ -1,6 +1,30 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<div style="text-align:center;padding:50px;font-family:Arial">
-    <h1>💰 Notre Cagnotte</h1>
-    <div style="font-size:3em;color:green;font-weight:bold">150 €</div>
-    <p>Objectif : 500 €</p>
-</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cagnotte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f8ff;
+        }
+        .montant {
+            font-size: 3em;
+            color: #2c5aa0;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .titre {
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="titre">Notre cagnotte</div>
+    <div class="montant">150 €</div>
+    <div>Merci pour votre participation !</div>
+</body>
+</html>
